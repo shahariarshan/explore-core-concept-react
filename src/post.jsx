@@ -1,5 +1,6 @@
 import { Component, useEffect, useState } from "react"
 import PostItem from "./PostItem";
+import './PostItem.css'
 
 export default function Post (){
     const [posts,setPost] = useState([])
